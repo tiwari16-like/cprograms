@@ -1,0 +1,28 @@
+#include<stdio.h>
+void main()
+{
+    int b[3][4]={{1,2,3,4},{5,6,7,8},{9,3,2,6}};
+    int i,j,sum;
+    
+    printf("\nelements of 2d array are:\n");
+    for(i=0;i<=3;i++)
+    {
+        for(j=0;j<=3;j++)
+        {
+            printf("b[%d][%d]:",i,j);
+            scanf("%d",b[i][j]);
+            
+        }
+    }
+    printf("\nelements of 2d array are:\n");
+    for(i=0;i<=2;i++)
+    {
+        for(j=0;j<=3;j++)
+        {
+            printf("%d\t",b[i][j]);
+        }
+        printf("\n");
+    }
+    return 0;
+    
+}
